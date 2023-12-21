@@ -1,5 +1,22 @@
 # MIP2023-SpartTestClassification
 
+![feature30_expand_50spark](https://github.com/ykkimhgu/MIP2023-SpartTestClassification/assets/91367451/43d3cfbd-78f1-40af-a770-1a02f63f4f95)
+
+<center>Figure1. Steel Classification Confusion Matrix</center>
+
+|                  |           | Precision[%] |                   |           | Recall[%] |                   |           | F1 score[%] |                   |
+| :--------------- | :-------: | :----------: | :---------------: | :-------: | :-------: | :---------------: | :-------: | :---------: | :---------------: |
+| **Steel**        |  **SVM**  |   **KNN**    | **Random Forest** |  **SVM**  |  **KNN**  | **Random Forest** |  **SVM**  |   **KNN**   | **Random Forest** |
+| **C10 (0.1%C)**  |  **100**  |    **50**    |      **100**      | **66.67** | **33.33** |     **66.67**     |  **80**   |   **40**    |      **80**       |
+| **C20 (0.2%C)**  |   **0**   |    **50**    |      **50**       |   **0**   |  **25**   |      **25**       |   **0**   |  **33.33**  |     **33.33**     |
+| **C25 (0.25%C)** | **37.5**  |    **40**    |     **33.33**     |  **100**  | **66.67** |     **66.67**     | **54.55** |   **50**    |     **44.44**     |
+| **C35 (0.35%C)** |  **25**   |  **16.67**   |      **50**       | **14.29** | **14.29** |     **28.57**     | **18.18** |  **15.38**  |     **36.36**     |
+| **C40 (0.4%C)**  |   **0**   |    **0**     |      **50**       |   **0**   |   **0**   |     **16.67**     |   **0**   |    **0**    |      **25**       |
+| **C53 (0.53%C)** | **57.89** |    **50**    |      **60**       | **84.62** | **69.23** |     **69.23**     | **68.75** |  **58.06**  |     **64.29**     |
+| **C55 (0.55%C)** | **55.56** |  **55.56**   |     **45.45**     | **83.33** | **83.33** |     **83.33**     | **66.67** |  **66.67**  |     **58.82**     |
+
+<center>Table1. Performance according to steel type and model</center>
+
 ## Introduction
 
  본 repository는 2023년 2학기에 진행된 기전융합종합설계, **Basic Research on Steel Type Distinction Technology Based on Spark Video** 에 대한 실행 파일과 튜토리얼으로 구성되어 있습니다.
@@ -31,7 +48,7 @@
 
 ![플로우](https://github.com/GracenPraise/Embedded-Controller/assets/91367451/d311ebf8-48b1-484b-ae67-b72b13fd6981)
 
-<center>Figure1. Steel Classification Flow Chart</center>
+<center>Figure2. Steel Classification Flow Chart</center>
 
 
 
